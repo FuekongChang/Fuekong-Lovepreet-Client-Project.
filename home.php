@@ -7,9 +7,6 @@
     <script type="text/javascript"></script>
 </head>
 <body>
-   
-    <?php
     
-    ?>
 </body>
 </html>
