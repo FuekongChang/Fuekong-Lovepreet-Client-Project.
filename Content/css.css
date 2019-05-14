@@ -1,0 +1,54 @@
+Box-sizing border-box */
+* { box-sizing: border-box; }
+
+body {
+    background-image:url(dust_scratches.png);
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+ height: 100%;
+    justify-content: center;
+    align-items: stretch;
+    align-content:stretch;
+}
+.hometitle {
+    font-size: 2em;
+  width: 95%;
+    height: 50%; 
+    flex-grow: 1;
+    flex-shrink: ; 
+    text-align: center;
+}
+.homepage1{
+    font-size: 1.3em;
+    width: 95%;
+    height: 50%; 
+    flex-grow: 1;
+    flex-shrink: ; 
+    text-align: center;
+    font-size: 300%;
+}
+.homepage2{
+    font-size: 1.3em;
+    width: 95%;
+    height: 50%; 
+    flex-grow: 1;
+    flex-shrink: ; 
+    text-align: left;
+    padding: 10%;
+    margin:10%;
+    border:10%;
+    align-self: flex-start;
+}
+.header1{
+    font-size: 2em;
+  width: 95%;
+    height: 50%; 
+    flex-grow: 1;
+    flex-shrink: ; 
+    text-align: center;
+}
+.paragraph{
+    
+}
