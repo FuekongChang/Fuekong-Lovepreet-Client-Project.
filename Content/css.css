@@ -23,16 +23,19 @@ body {
     text-align: center;
 }
 .homepage1{
-    font-size: 1.3em;
+    font-size: 2em;
     width: 95%;
     height: 50%; 
     flex-grow: 1;
     flex-shrink: ; 
     text-align: center;
     font-size: 300%;
+  margin: 1em;
+    border: 1em;
+    padding: 1em;
 }
 .homepage2{
-    font-size: 1.3em;
+    font-size: 2em;
     width: 20%;
     height: 50%; 
     flex-grow: 1;
@@ -42,6 +45,9 @@ body {
     margin:5%;
     border:1%;
     align-self: flex-start;
+  margin: 1em;
+    border: 1em;
+    padding: 1em;
 }
 
 .homepage2 p {
@@ -62,16 +68,16 @@ body {
     height: 50%; 
     flex-grow: 1;
     flex-shrink: 1; 
-    text-align: right;
+    text-align: center;
     padding:1%;
     margin:1%;
     border:1%;
     align-self: flex-end;
 }
 .paragraph{
-    font-size: 1.3em;
-    width: 10%;
-    height: 50%; 
+    font-size: 2em;
+    width: 1%;
+    height: 1%; 
     flex-grow: 1;
     flex-shrink: ; 
     text-align: left;
@@ -80,6 +86,7 @@ body {
     border:2%;
     align-self: flex-start;
     float: left;
+  
 }
 .paragraph p {
     font-family: 'Karla';
@@ -88,9 +95,11 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
+  max-width: 50%;
+  position: center;
   margin: auto;
+    max-height: 50%;
+    background-size: cover;
 }
 
 /* Hide the images by default */
@@ -131,7 +140,7 @@ body {
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 2px;
   width: 100%;
   text-align: center;
 }
@@ -194,13 +203,38 @@ body {
     font-family: 'Karla';
 }
 .extra {
-    font-size: 1.3em;
+    font-size: 2em;
+    width: 50%;
+    height: 25%; 
     flex-grow: 1;
     flex-shrink: ; 
     text-align: left;
-    align-self: flex-start;
-    align-self: auto;
+    padding:2em;
+    margin:1em;
+    border:2em;
+    float: center;
+      flex-grow: 1;
+    flex-shrink: ; 
+    text-align: left; 
 }
 .extra p {
+    font-family: 'Karla';
+}
+.paragraph2{
+    font-size: 2em;
+    width: 50%;
+    height: 25%; 
+    flex-grow: 1;
+    flex-shrink: ; 
+    text-align: left;
+    padding:2em;
+    margin:1em;
+    border:2em;
+    float: center;
+      flex-grow: 1;
+    flex-shrink: ; 
+    text-align: center;
+}
+.paragraph2 p {
     font-family: 'Karla';
 }

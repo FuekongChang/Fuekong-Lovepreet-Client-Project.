@@ -20,11 +20,17 @@
        <div class="header2">
    <h2>Our Purpose</h2>
        </div>
-       <div class="paragraph">
+       <div class="paragraph2">
     <p>We strive to get the job well done in a well fashion, so you can be happy and we know we did good.We also wanted to provide a great deal of service to many people as we can so it won't be a hassle for those that need things to get moved faster and safely.</p>
       </div>
-     <!-- Slideshow container -->
-<div class="slideshow-container">
+    <div class="header3">
+    <h2>Extra Information</h2>
+    </div>
+    <div class="extra">
+    <p>If you want more information about our service take a look at our other page.</p>
+    </div>
+    </div>
+    <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
@@ -69,7 +75,7 @@
   <span class="dot" onclick="currentSlide(3)"></span> 
   <span class="dot" onclick="currentSlide(4)"></span> <span class="dot" onclick="currentSlide(5)"></span> 
 </div>
-  <script>
+    <script>
      var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -116,16 +122,6 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
        </script>
-    <div class="image1">
-        <image ></image>
-    </div>
-    <div class="header3">
-    <h2>Extra Information</h2>
-    </div>
-    <div class="extra">
-    <p>If you want more information about our service take a look at our other page.</p>
-    </div>
-    </div>
     <?php
   
    
