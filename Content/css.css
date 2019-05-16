@@ -33,6 +33,7 @@ body {
   margin: 1em;
     border: 1em;
     padding: 1em;
+    background-color: darkgray;
 }
 .homepage2{
     font-size: 2em;
@@ -48,6 +49,7 @@ body {
   margin: 1em;
     border: 1em;
     padding: 1em;
+      background-color: darkgray;
 }
 
 .homepage2 p {
@@ -86,7 +88,7 @@ body {
     border:2%;
     align-self: flex-start;
     float: left;
-  
+    background-color: darkgray;
 }
 .paragraph p {
     font-family: 'Karla';
@@ -108,20 +110,7 @@ body {
 }
 
 /* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
+
 
 /* Position the "next button" to the right */
 .next {
@@ -216,6 +205,7 @@ body {
       flex-grow: 1;
     flex-shrink: ; 
     text-align: left; 
+      background-color: darkgray;
 }
 .extra p {
     font-family: 'Karla';
@@ -234,6 +224,7 @@ body {
       flex-grow: 1;
     flex-shrink: ; 
     text-align: center;
+      background-color: darkgray;
 }
 .paragraph2 p {
     font-family: 'Karla';
