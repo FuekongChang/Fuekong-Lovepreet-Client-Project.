@@ -106,3 +106,83 @@ li > a {
     background-color: moccasin;
     padding: 2em;
 }
+
+.ser-h3 {
+    font-size: 1.5em
+}
+
+.ser-text {
+    font-size: 1.2em;
+}
+.truck {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.ser2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: flex-start;
+    max-width: 70%;
+    margin-top: 3%;
+}
+
+.cas {
+    width: 100%;
+    margin-right: 7%;
+    background-color: moccasin;
+    padding: 2em;
+}
+
+.ken {
+    width: 100%;
+    background-color: moccasin;
+    padding: 2em;
+}
+
+.page2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: flex-start;
+    max-width: 70%;
+    margin-top: 5%;
+}
+
+.con-form {
+    width: 100%;
+    margin-right: 7%;
+    background-color: lightgray;
+    padding: 2em;
+    line-height: 2em;
+
+}
+input {
+    height: 1.5em;
+    width: 38.5%;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+#reason {
+    height: 1.5em;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    font-size: 20px;    
+}
+
+
+.form {
+    font-size: 1.5em;
+    display: block;
+    line-height: 1.5em;
+}
