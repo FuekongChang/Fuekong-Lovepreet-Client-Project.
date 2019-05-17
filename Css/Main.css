@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: goldenrod;
+    height: 6em;
+    margin: 0;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.lo {
+    width: 40%;
+}
+
+.page {
+    /*    margin: 0 auto;*/
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+li {
+    list-style-type: none;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+}
+
+
+li > a {
+    color: black;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 1em;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.co {
+    margin-right: 10%;
+}
+
+.vl {
+    height: 6em;
+    border-left: 2px solid black
+}
+
+Box-sizing border-box */
+* { box-sizing: border-box; }
+
+body {
+    background-image:url(dust_scratches.png);
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+ height: 100%;
+    justify-content: center;
+    align-items: stretch;
+    align-content:stretch;
+}
+.hometitle {
+    font-size: 2em;
+  width: 95%;
+    height: 50%; 
+    flex-grow: 1;
+    flex-shrink: ; 
+    text-align: center;
+}
+.homepage1{
+    font-size: 2em;
+    width: 95%;
+    height: 50%; 
+    flex-grow: 1;
+    flex-shrink: ; 
+    text-align: center;
+    font-size: 300%;
+  margin: 1em;
+    border: 1em;
+    padding: 1em;
+    background-color: darkgray;
+}
+.homepage2{
+    font-size: 2em;
+    width: 20%;
+    height: 50%; 
+    flex-grow: 1;
+    flex-shrink: ; 
+    text-align: left;
+    padding:1%;
+    margin:5%;
+    border:1%;
+    align-self: flex-start;
+  margin: 1em;
+    border: 1em;
+    padding: 1em;
+      background-color: darkgray;
+}
+
+.homepage2 p {
+    font-family: 'Karla';
+}
+
+.header1{
+    font-size: 2em;
+  width: 95%;
+    height: 50%; 
+    flex-grow: 1;
+    flex-shrink: ; 
+    text-align: center;
+}
+.header2{
+     font-size: 2em;
+   width: 95%;
+    height: 50%; 
+    flex-grow: 1;
+    flex-shrink: 1; 
+    text-align: center;
+    padding:1%;
+    margin:1%;
+    border:1%;
+    align-self: flex-end;
+}
+.paragraph{
+    font-size: 2em;
+    width: 1%;
+    height: 1%; 
+    flex-grow: 1;
+    flex-shrink: ; 
+    text-align: left;
+    padding:2%;
+    margin:5%;
+    border:2%;
+    align-self: flex-start;
+    float: left;
+    background-color: darkgray;
+}
+.paragraph p {
+    font-family: 'Karla';
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50%;
+  position: center;
+  margin: auto;
+    max-height: 50%;
+    background-size: cover;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: goldenrod;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 2px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: goldenrod;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.header3{
+    font-size: 2em;
+  width: 95%;
+    height: 50%; 
+    flex-grow: 1;
+    flex-shrink: ; 
+    text-align: left;
+    padding:1%;
+    margin:1%;
+    border:1%;
+    align-self: flex-start;
+}
+.header3 h2 {
+    font-family: 'Karla';
+}
+.extra {
+    font-size: 2em;
+    width: 50%;
+    height: 25%; 
+    flex-grow: 1;
+    flex-shrink: ; 
+    text-align: left;
+    padding:2em;
+    margin:1em;
+    border:2em;
+    float: center;
+      flex-grow: 1;
+    flex-shrink: ; 
+    text-align: left; 
+      background-color: darkgray;
+}
+.extra p {
+    font-family: 'Karla';
+}
+.paragraph2{
+    font-size: 2em;
+    width: 50%;
+    height: 25%; 
+    flex-grow: 1;
+    flex-shrink: ; 
+    text-align: left;
+    padding:2em;
+    margin:1em;
+    border:2em;
+    float: center;
+      flex-grow: 1;
+    flex-shrink: ; 
+    text-align: center;
+      background-color: darkgray;
+}
+.paragraph2 p {
+    font-family: 'Karla';
+}
+.footer {
+    bottom: 0;
+    
+    width: 100%;
+    height: 2em;
+    background-color: beige;
+
+}
+
+.foot-info {
+    text-align: center;
+    margin-top: 2%;
+    word-spacing: 3px;
+    line-height: 1.4;
+    font-size: 1.1em;
+}

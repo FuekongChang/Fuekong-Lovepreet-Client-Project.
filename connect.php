@@ -8,7 +8,7 @@
 </head>
 <body>
  <?php
-    require("Moduals/header.php");
+    require("header.php");
     
     if(isset($_GET['page'])){
         $page = $_GET['page'];
@@ -25,7 +25,7 @@
         include("Content/home.php");
     }
     
-    require("Moduals/footer.php");
+    require("footer.php");
     ?>
     
 </body>

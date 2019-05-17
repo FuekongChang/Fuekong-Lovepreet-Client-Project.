@@ -34,31 +34,25 @@
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext">1 / 5</div>
+    <div class="numbertext">1 / 4</div>
     <img src="slide%20show1.jpg" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">2 / 5</div>
+    <div class="numbertext">2 / 4</div>
     <img src="slide%20show2.jpg" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">3 / 5</div>
-    <img src="slide%20show3.jpg" style="width:100%">
-    <div class="text"></div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 5</div>
+    <div class="numbertext">3 / 4</div>
     <img src="slide%20show4.jpg" style="width:100%">
     <div class="text"></div>
   </div>
-
+  
 <div class="mySlides fade">
-    <div class="numbertext">5 / 5</div>
+    <div class="numbertext">4 / 4</div>
     <img src="slide%20show%205.jpg" style="width:100%">
     <div class="text"></div>
   </div>
