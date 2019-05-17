@@ -10,7 +10,7 @@
 <body>
     <div class="navbar">
         <div class="logo">
-            <img class="lo" src="image-folder/uppal.PNG" alt="company-logo">
+            <img class="lo" src="Images/uppal.PNG" alt="company-logo">
         </div>
         <div class="page">
             <li><a href="home.php">Home</a></li>
