@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Uppal Transport</title>
-  <link rel="stylesheet" href="css.css">
+  <link rel="stylesheet" href="Css/main.css">
 </head>
 <body>
    <div class="flex-container">
