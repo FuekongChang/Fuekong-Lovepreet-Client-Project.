@@ -186,3 +186,10 @@ input {
     display: block;
     line-height: 1.5em;
 }
+
+#comment {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
