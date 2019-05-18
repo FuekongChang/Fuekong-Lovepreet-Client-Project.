@@ -10,7 +10,9 @@
 <body>
     <footer class="footer">
         <div class="foot-info">
-            2019 &copy; All Rights Reserved. Uppal Transport Llc
+            2019 &copy; All Rights Reserved. Uppal Transport Llc <br>
+            Uppal Transport Llc <br>
+            601 - 695 - 8806 / uppal.transport@yahoo.com<br>
         </div>
     </footer>
 </body>

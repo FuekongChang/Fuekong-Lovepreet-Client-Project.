@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
+    <title>Services</title>
 </head>
 
 <body>
@@ -12,7 +12,7 @@
 
     if(isset($_GET['page'])){
         $page = $_GET['page'];
-        if(file_exists("Content/$contact.php")){
+        if(file_exists("Content/$services.php")){
 
             include("Content/$page.php");
 
@@ -22,7 +22,7 @@
         }
     }
     else {
-        include("contact.php");
+        include("services.php");
     }
 
     require("footer.php");
