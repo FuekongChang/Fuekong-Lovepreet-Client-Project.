@@ -1,239 +1,282 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .navbar {
-    background-color: goldenrod;
-    height: 6em;
-    margin: 0;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-
+  background-color: goldenrod;
+  height: 6em;
+  margin: 0;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
 }
 
 .logo {
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .lo {
-    width: 40%;
+  width: 40%;
 }
 
 .page {
-    /*    margin: 0 auto;*/
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-
+  /*    margin: 0 auto;*/
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 li {
-    list-style-type: none;
-    margin-right: 5%;
-    margin-left: 5%;
-    display: flex;
+  list-style-type: none;
+  margin-right: 5%;
+  margin-left: 5%;
+  display: flex;
 }
 
-
-li > a {
-    color: black;
-    display: block;
-    font-size: 2em;
-    text-align: center;
-    padding-top: 1em;
-    text-decoration: none;
-    list-style-type: none;
-
+li>a {
+  color: black;
+  display: block;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 1em;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .co {
-    margin-right: 10%;
+  margin-right: 10%;
 }
 
 .vl {
-    height: 6em;
-    border-left: 2px solid black
+  height: 6em;
+  border-left: 2px solid black
 }
 
 /*Footer*/
 .footer {
-    bottom: 0;
-    width: 100%;
-    height: 20%;
-    background-color: beige;
-    padding-top: .1em;
-    padding-bottom: 3em;
-
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  background-color: beige;
+  padding-top: .1em;
+  padding-bottom: 3em;
 }
 
 .foot-info {
-    text-align: center;
-    margin-top: 2%;
-    word-spacing: 3px;
-    line-height: 1.4;
-    font-size: 1.1em;
+  text-align: center;
+  margin-top: 2%;
+  word-spacing: 3px;
+  line-height: 1.4;
+  font-size: 1.1em;
 }
 
-.parallax-ser {
-    background-image: 
+.ser-intro {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 2em;
 }
+
+/* .parallax-ser {
+  background-image: url(pic/road.jpg);
+  height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* .sol {
+  text-align: center;
+  padding-top: 2em;
+  font-size: 2.4em;
+  color: black;
+  margin: 0;
+  font-weight: 900;
+  text-shadow: 1px 1px white;
+} */
 
 .ser1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-    align-items: flex-start;
-    max-width: 70%;
-    margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: flex-start;
+  max-width: 70%;
+  margin-top: 5%;
+  line-height: 27px;
 }
 
 .single {
-    width: 100%;
-    margin-right: 7%;
-    background-color: moccasin;
-    padding: 2em;
-
+  width: 100%;
+  margin-right: 7%;
+  background-color: moccasin;
+  padding: 2em;
+  height: 15em;
 }
 
 .team {
-    width: 100%;
-    background-color: moccasin;
-    padding: 2em;
+  width: 100%;
+  background-color: moccasin;
+  padding: 2em;
+  height: 15em;
 }
 
 .ser-h3 {
-    font-size: 1.5em
+  font-size: 1.5em
 }
 
 .ser-text {
-    font-size: 1.2em;
+  font-size: 1.3em;
+  word-spacing: 2px;
 }
+
 .truck {
-    text-align: center;
-    margin-top: 4%;
+  text-align: center;
+  margin-top: 4%;
 }
 
 .ser2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-    align-items: flex-start;
-    max-width: 70%;
-    margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: flex-start;
+  max-width: 70%;
+  margin-top: 3%;
+  line-height: 27px;
+  margin-bottom: 3%;
+}
+
+.reefer {
+  background-image: url(pic/thermo.jpg);
+  max-width: 100%;
+  height: 18em;
+}
+
+.dry {
+  background-image: url(pic/dry3.jpg);
+  max-width: 100%;
+  height: 18em;
 }
 
 .cas {
-    width: 100%;
-    margin-right: 7%;
-    background-color: moccasin;
-    padding: 2em;
+  width: 100%;
+  margin-right: 7%;
+  background-color: moccasin;
+  padding: 2em;
 }
 
 .ken {
-    width: 100%;
-    background-color: moccasin;
-    padding: 2em;
+  width: 100%;
+  max-height: 50em;
+  background-color: moccasin;
+  padding: 2em;
 }
 
 .page2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-    align-items: flex-start;
-    max-width: 70%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: flex-start;
+  max-width: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .con-form {
-    width: 100%;
-    margin-right: 7%;
-    background-image: url(pic/dust_scratches.png);
-    padding: 2em;
-    line-height: 2em;
-
+  width: 100%;
+  margin-right: 7%;
+  /* background-image: url(pic/dust_scratches.png); */
+  padding: 2em;
+  line-height: 2em;
 }
+
 input {
-    height: 1.5em;
-    width: 50%;
-    border-radius: 5px;
-    box-shadow: none;
-    border: 1px solid #ccc;
-    padding-left: 5px;
-    font-size: 1em;
+  height: 1.5em;
+  width: 50%;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid #ccc;
+  padding-left: 5px;
+  font-size: 1em;
 }
 
 #reason {
-    height: 1.5em;
-    width: 51%;
-    border-radius: 5px;
-    box-shadow: none;
-    border: 1px solid #ccc;
-    padding-left: 5px;
-    font-size: 1em;    
+  height: 1.5em;
+  width: 51%;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid #ccc;
+  padding-left: 5px;
+  font-size: 1em;
 }
 
+option {
+  width: 50%;
+}
 
 .form {
-    font-size: 1.5em;
-    display: block;
-    line-height: 1.5em;
+  font-size: 1.5em;
+  display: block;
+  line-height: 1.5em;
 }
 
 #comment {
-    border-radius: 5px;
-    box-shadow: none;
-    border: 1px solid #ccc;
-    padding: 5px;
-    font-size: 1.3em;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 1.3em;
 }
 
 .parallax-c {
-    background-image: url(pic/dust_scratches.png);
-    min-height: 27em;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
+  /* background-image: url(pic/dust_scratches.png); */
+  min-height: 27em;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 
-
 .con-info {
-    color: black;
-    position: absolute;
-    left: 20%;
-    top: 30%;
-    max-height: 50%;
-    max-width: 60%;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 1%;
-    font-size: 2.4em;
-    letter-spacing: 1px;
+  color: black;
+  position: absolute;
+  left: 20%;
+  top: 13%;
+  max-height: 50%;
+  max-width: 60%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1%;
+  font-size: 2.4em;
+  letter-spacing: 1px;
+}
+
+.body-c {
+  background-image: url(pic/dust_scratches.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .address {
-    text-align: center;
-    margin-top: 5em;
+  text-align: center;
+  margin-top: -2em;
 }
 
 .address-h {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .address-p {
-    font-size: 1.3em;
-    line-height: 1.6em;
+  font-size: 1.4em;
+  line-height: 1.6em;
 }
